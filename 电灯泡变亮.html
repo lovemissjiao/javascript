@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="焦慧莹">
+        <title></title>
+        <style>
+            
+        </style>
+    </head>
+    <body>
+        <script>
+        function changeImage()
+        {
+            element=document.getElementById('myimage')
+            if (element.src.match("bulbon"))
+            {
+              element.src="tp/eg_bulboff.gif";
+              }
+            else
+              {
+              element.src="tp/eg_bulbon.gif";
+              }
+            }
+            </script>
+            
+            <img id="myimage" onclick="changeImage()" src="tp/eg_bulboff.gif">
+            
+            <p>点击灯泡来点亮或熄灭这盏灯</p>
+ 
+    </body>
+</html>
